@@ -1,0 +1,5 @@
+if(EXISTS "/home/zx/qmc-annealer/build/test/my_library_test[1]_tests.cmake")
+  include("/home/zx/qmc-annealer/build/test/my_library_test[1]_tests.cmake")
+else()
+  add_test(my_library_test_NOT_BUILT my_library_test_NOT_BUILT)
+endif()

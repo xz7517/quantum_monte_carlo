@@ -1,0 +1,67 @@
+[
+{
+  "directory": "/home/zx/qmc-annealer/build",
+  "command": "/usr/bin/clang++-14 -I/home/zx/qmc-annealer/my_static_lib/include -Wall -Wextra -Wcast-align -Wcast-qual -Wdelete-non-virtual-dtor -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wfloat-equal -Winit-self -Wredundant-decls -Wconversion -Wsign-promo -Wswitch-default -Wswitch-enum -Wvariadic-macros -Wwrite-strings -Wno-unknown-pragmas -O3 -DNDEBUG -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -std=c++20 -o my_static_lib/CMakeFiles/my_static_lib.dir/src/my_static_lib.cpp.o -c /home/zx/qmc-annealer/my_static_lib/src/my_static_lib.cpp",
+  "file": "/home/zx/qmc-annealer/my_static_lib/src/my_static_lib.cpp"
+},
+
+{
+  "directory": "/home/zx/qmc-annealer/build",
+  "command": "/usr/bin/clang++-14 -I/home/zx/vcpkg/installed/x64-linux/include -I/home/zx/qmc-annealer/my_header_lib/include -I/home/zx/qmc-annealer/my_static_lib/include -Wall -Wextra -Wcast-align -Wcast-qual -Wdelete-non-virtual-dtor -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wfloat-equal -Winit-self -Wredundant-decls -Wconversion -Wsign-promo -Wswitch-default -Wswitch-enum -Wvariadic-macros -Wwrite-strings -Wno-unknown-pragmas -O3 -DNDEBUG -fPIE -fvisibility=hidden -fvisibility-inlines-hidden -O3 -march=native -ffast-math -std=c++20 -o main/CMakeFiles/main.dir/src/main.cpp.o -c /home/zx/qmc-annealer/main/src/main.cpp",
+  "file": "/home/zx/qmc-annealer/main/src/main.cpp"
+},
+
+{
+  "directory": "/home/zx/qmc-annealer/build",
+  "command": "/usr/bin/clang++-14 -I/home/zx/qmc-annealer/my_header_lib/include -I/home/zx/qmc-annealer/my_static_lib/include -isystem /home/zx/vcpkg/installed/x64-linux/include -Wall -Wextra -Wcast-align -Wcast-qual -Wdelete-non-virtual-dtor -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wfloat-equal -Winit-self -Wredundant-decls -Wconversion -Wsign-promo -Wswitch-default -Wswitch-enum -Wvariadic-macros -Wwrite-strings -Wno-unknown-pragmas -O3 -DNDEBUG -fPIE -fvisibility=hidden -fvisibility-inlines-hidden -std=c++20 -o test/CMakeFiles/my_library_test.dir/src/my_header_lib_test.cpp.o -c /home/zx/qmc-annealer/test/src/my_header_lib_test.cpp",
+  "file": "/home/zx/qmc-annealer/test/src/my_header_lib_test.cpp"
+},
+
+{
+  "directory": "/home/zx/qmc-annealer/build",
+  "command": "/usr/bin/clang++-14 -I/home/zx/qmc-annealer/my_header_lib/include -I/home/zx/qmc-annealer/my_static_lib/include -isystem /home/zx/vcpkg/installed/x64-linux/include -Wall -Wextra -Wcast-align -Wcast-qual -Wdelete-non-virtual-dtor -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wfloat-equal -Winit-self -Wredundant-decls -Wconversion -Wsign-promo -Wswitch-default -Wswitch-enum -Wvariadic-macros -Wwrite-strings -Wno-unknown-pragmas -O3 -DNDEBUG -fPIE -fvisibility=hidden -fvisibility-inlines-hidden -std=c++20 -o test/CMakeFiles/my_library_test.dir/src/my_static_lib_test.cpp.o -c /home/zx/qmc-annealer/test/src/my_static_lib_test.cpp",
+  "file": "/home/zx/qmc-annealer/test/src/my_static_lib_test.cpp"
+},
+
+{
+  "directory": "/home/zx/qmc-annealer/build",
+  "command": "/usr/bin/clang++-14 -I/home/zx/qmc-annealer/my_static_lib/include -Wall -Wextra -Wcast-align -Wcast-qual -Wdelete-non-virtual-dtor -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wfloat-equal -Winit-self -Wredundant-decls -Wconversion -Wsign-promo -Wswitch-default -Wswitch-enum -Wvariadic-macros -Wwrite-strings -Wno-unknown-pragmas -O3 -DNDEBUG -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -std=c++20 -c /home/zx/qmc-annealer/my_static_lib/include/my_static_lib.h",
+  "file": "/home/zx/qmc-annealer/my_static_lib/include/my_static_lib.h"
+},
+
+{
+  "directory": "/home/zx/qmc-annealer/build",
+  "command": "/usr/bin/clang++-14 -I/home/zx/vcpkg/installed/x64-linux/include -I/home/zx/qmc-annealer/my_header_lib/include -I/home/zx/qmc-annealer/my_static_lib/include -Wall -Wextra -Wcast-align -Wcast-qual -Wdelete-non-virtual-dtor -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wfloat-equal -Winit-self -Wredundant-decls -Wconversion -Wsign-promo -Wswitch-default -Wswitch-enum -Wvariadic-macros -Wwrite-strings -Wno-unknown-pragmas -O3 -DNDEBUG -fPIE -fvisibility=hidden -fvisibility-inlines-hidden -O3 -march=native -ffast-math -std=c++20 -c /home/zx/qmc-annealer/my_header_lib/include/brute_solve.hpp",
+  "file": "/home/zx/qmc-annealer/my_header_lib/include/brute_solve.hpp"
+},
+
+{
+  "directory": "/home/zx/qmc-annealer/build",
+  "command": "/usr/bin/clang++-14 -I/home/zx/vcpkg/installed/x64-linux/include -I/home/zx/qmc-annealer/my_header_lib/include -I/home/zx/qmc-annealer/my_static_lib/include -Wall -Wextra -Wcast-align -Wcast-qual -Wdelete-non-virtual-dtor -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wfloat-equal -Winit-self -Wredundant-decls -Wconversion -Wsign-promo -Wswitch-default -Wswitch-enum -Wvariadic-macros -Wwrite-strings -Wno-unknown-pragmas -O3 -DNDEBUG -fPIE -fvisibility=hidden -fvisibility-inlines-hidden -O3 -march=native -ffast-math -std=c++20 -c /home/zx/qmc-annealer/my_header_lib/include/pcg_random.hpp",
+  "file": "/home/zx/qmc-annealer/my_header_lib/include/pcg_random.hpp"
+},
+
+{
+  "directory": "/home/zx/qmc-annealer/build",
+  "command": "/usr/bin/clang++-14 -I/home/zx/vcpkg/installed/x64-linux/include -I/home/zx/qmc-annealer/my_header_lib/include -I/home/zx/qmc-annealer/my_static_lib/include -Wall -Wextra -Wcast-align -Wcast-qual -Wdelete-non-virtual-dtor -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wfloat-equal -Winit-self -Wredundant-decls -Wconversion -Wsign-promo -Wswitch-default -Wswitch-enum -Wvariadic-macros -Wwrite-strings -Wno-unknown-pragmas -O3 -DNDEBUG -fPIE -fvisibility=hidden -fvisibility-inlines-hidden -O3 -march=native -ffast-math -std=c++20 -c /home/zx/qmc-annealer/my_header_lib/include/pcg_extras.hpp",
+  "file": "/home/zx/qmc-annealer/my_header_lib/include/pcg_extras.hpp"
+},
+
+{
+  "directory": "/home/zx/qmc-annealer/build",
+  "command": "/usr/bin/clang++-14 -I/home/zx/vcpkg/installed/x64-linux/include -I/home/zx/qmc-annealer/my_header_lib/include -I/home/zx/qmc-annealer/my_static_lib/include -Wall -Wextra -Wcast-align -Wcast-qual -Wdelete-non-virtual-dtor -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wfloat-equal -Winit-self -Wredundant-decls -Wconversion -Wsign-promo -Wswitch-default -Wswitch-enum -Wvariadic-macros -Wwrite-strings -Wno-unknown-pragmas -O3 -DNDEBUG -fPIE -fvisibility=hidden -fvisibility-inlines-hidden -O3 -march=native -ffast-math -std=c++20 -c /home/zx/qmc-annealer/my_header_lib/include/pimc_continuous.hpp",
+  "file": "/home/zx/qmc-annealer/my_header_lib/include/pimc_continuous.hpp"
+},
+
+{
+  "directory": "/home/zx/qmc-annealer/build",
+  "command": "/usr/bin/clang++-14 -I/home/zx/vcpkg/installed/x64-linux/include -I/home/zx/qmc-annealer/my_header_lib/include -I/home/zx/qmc-annealer/my_static_lib/include -Wall -Wextra -Wcast-align -Wcast-qual -Wdelete-non-virtual-dtor -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wfloat-equal -Winit-self -Wredundant-decls -Wconversion -Wsign-promo -Wswitch-default -Wswitch-enum -Wvariadic-macros -Wwrite-strings -Wno-unknown-pragmas -O3 -DNDEBUG -fPIE -fvisibility=hidden -fvisibility-inlines-hidden -O3 -march=native -ffast-math -std=c++20 -c /home/zx/vcpkg/installed/x64-linux/include/BS_thread_pool.hpp",
+  "file": "/home/zx/vcpkg/installed/x64-linux/include/BS_thread_pool.hpp"
+},
+
+{
+  "directory": "/home/zx/qmc-annealer/build",
+  "command": "/usr/bin/clang++-14 -I/home/zx/vcpkg/installed/x64-linux/include -I/home/zx/qmc-annealer/my_header_lib/include -I/home/zx/qmc-annealer/my_static_lib/include -Wall -Wextra -Wcast-align -Wcast-qual -Wdelete-non-virtual-dtor -Wold-style-cast -Woverloaded-virtual -Wpointer-arith -Wfloat-equal -Winit-self -Wredundant-decls -Wconversion -Wsign-promo -Wswitch-default -Wswitch-enum -Wvariadic-macros -Wwrite-strings -Wno-unknown-pragmas -O3 -DNDEBUG -fPIE -fvisibility=hidden -fvisibility-inlines-hidden -O3 -march=native -ffast-math -std=c++20 -c /home/zx/qmc-annealer/my_header_lib/include/pimc_model.hpp",
+  "file": "/home/zx/qmc-annealer/my_header_lib/include/pimc_model.hpp"
+}
+]

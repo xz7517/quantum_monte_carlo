@@ -1,0 +1,5 @@
+add_test( MyHeaderLib.StandardOutput /home/zx/qmc-annealer/build/Release/bin/my_library_test [==[--gtest_filter=MyHeaderLib.StandardOutput]==] --gtest_also_run_disabled_tests)
+set_tests_properties( MyHeaderLib.StandardOutput PROPERTIES WORKING_DIRECTORY /home/zx/qmc-annealer/build/test SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test( MyStaticLib.StandardOutput /home/zx/qmc-annealer/build/Release/bin/my_library_test [==[--gtest_filter=MyStaticLib.StandardOutput]==] --gtest_also_run_disabled_tests)
+set_tests_properties( MyStaticLib.StandardOutput PROPERTIES WORKING_DIRECTORY /home/zx/qmc-annealer/build/test SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set( my_library_test_TESTS MyHeaderLib.StandardOutput MyStaticLib.StandardOutput)
